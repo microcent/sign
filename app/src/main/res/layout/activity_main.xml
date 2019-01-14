@@ -12,18 +12,19 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="1080px"
             android:layout_height="300px"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:scaleType="fitXY"
                 android:src="@mipmap/banner" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="1080px"
             android:layout_height="3px"
             android:orientation="vertical">
 
@@ -35,18 +36,19 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="1080px"
             android:layout_height="800px"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:scaleType="fitXY"
                 android:src="@mipmap/content" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="1080px"
             android:layout_height="3px"
             android:orientation="vertical">
 
@@ -58,7 +60,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="1080px"
             android:layout_height="511px"
             android:orientation="vertical">
 
@@ -66,16 +68,15 @@
                 android:id="@+id/banner"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                app:title_height="40dp"
                 app:indicator_drawable_selected="@drawable/ic_dot_focused"
                 app:indicator_drawable_unselected="@drawable/ic_dot_normal"
-                app:indicator_height="20dp"
-                app:indicator_margin="2dp"
-                app:indicator_width="20dp" />
+                app:indicator_height="15dp"
+                app:indicator_width="15dp"
+                app:title_height="38dp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="1080px"
             android:layout_height="3px"
             android:orientation="vertical">
 
@@ -87,13 +88,14 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="1080px"
             android:layout_height="300px"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:scaleType="fitXY"
                 android:src="@mipmap/footer" />
         </LinearLayout>
     </LinearLayout>
