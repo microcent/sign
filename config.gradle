@@ -1,0 +1,22 @@
+ext {
+    android = [
+            compileSdkVersion : 28,
+            applicationId     : "cn.com.codeele.sign",
+            minSdkVersion     : 15,
+            targetSdkVersion  : 28,
+            versionCode       : 1,
+            versionName       : "1.0.0",
+            androidJUnitRunner: "android.support.test.runner.AndroidJUnitRunner",
+            javaVersion       : JavaVersion.VERSION_1_8
+    ]
+
+    def dependVersion = [
+            retrofit   : "2.3.0",
+            okhttp3    : "3.9.0",
+            dagger2    : "2.12",
+            butterknife: "8.8.1",
+            greendao   : "3.2.2",
+            gson       : "2.8.1",
+            glide      : "3.7.0"
+    ]
+}
